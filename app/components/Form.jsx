@@ -38,18 +38,18 @@ export default function ModalPopup({ isOpen, onClose }) {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
-        className="bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-lg w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl overflow-y-auto max-h-[90vh] relative"
+        className="bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-2xl overflow-y-auto max-h-[90vh] relative"
       >
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 sm:top-4 sm:right-4 text-gray-600 hover:text-black text-2xl"
+          className="absolute top-2 right-2 sm:top-4 sm:right-4 text-gray-600 hover:text-black text-xl sm:text-2xl"
         >
           ✖
         </button>
 
         {/* Form Content */}
-        <h1 className="text-lg sm:text-xl md:text-3xl font-bold text-purple-700 mb-4 text-center">
+        <h1 className="text-base sm:text-xl md:text-2xl lg:text-3xl font-bold text-purple-700 mb-4 text-center">
           PERPLORA AI Business Support
         </h1>
 
