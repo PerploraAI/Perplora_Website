@@ -7,25 +7,25 @@ const testimonials = [
   {
     text: "Perplora AI's chatbot transformed our customer service! Response accuracy and 24/7 availability boosted our client satisfaction by 40%.",
     name: "Sarath Kumar",
-    handle: "@sarahthompson",
+    handle: "@SarathKumar",
     image: "https://i.pinimg.com/736x/aa/c6/a1/aac6a12fd48d80fe1c1d7e4f87505589.jpg",
   },
   {
     text: "Their generative AI models helped us automate content creation while maintaining brand voice. Now we produce 3x more marketing material!",
     name: "Vikash Raj",
-    handle: "@rajpatel",
+    handle: "@VikashRaj",
     image: "https://i.pinimg.com/736x/aa/c6/a1/aac6a12fd48d80fe1c1d7e4f87505589.jpg",
   },
   {
     text: "The AI analytics dashboard revealed hidden customer patterns we've now monetized. Best decision we made for data-driven decision making!",
     name: "Farooq Shaik",
-    handle: "@emilyzhang",
+    handle: "@FarooqShaik",
     image: "https://i.pinimg.com/736x/aa/c6/a1/aac6a12fd48d80fe1c1d7e4f87505589.jpg",
   },
   {
     text: "Their custom AI agent for lead qualification has reduced our sales team workload by 60% while increasing conversion rates. Absolute game-changer!",
     name: "Sumanth Daripalli",
-    handle: "@marcusjohnson",
+    handle: "@SumantDaripalli",
     image: "https://i.pinimg.com/736x/aa/c6/a1/aac6a12fd48d80fe1c1d7e4f87505589.jpg",
   },
 

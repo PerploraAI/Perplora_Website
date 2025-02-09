@@ -3,19 +3,19 @@ import { FaLinkedin, FaYoutube, FaFacebook, FaWhatsapp, FaInstagram, FaTwitter }
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-10">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-primary flex flex-col text-white py-10">
+      <div className="container flex flex-col md:items-center mx-auto px-4">
+        <div className="md:gap-36 gap-12 md:w-full flex md:flex-row justify-evenly flex-col ">
           {/* Company Information */}
-          <div>
+          <div className="flex flex-col ">
             <h2 className="text-xl font-bold mb-4">PERPLORA AI</h2>
-            <p>
+            <p className="w-[300px] md:w-[350px] ">
             We are a deep tech <strong>Generative AI company</strong>. Our mission is to provide cutting-edge AI applications, including Generative AI and Agentic AI solutions that are affordable, accessible, and adaptable for billions.
             </p>
           </div>
 
           {/* Company Links */}
-          <div>
+          <div className="text-left ">
             <h3 className="text-lg font-bold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="#about">Details</a></li>

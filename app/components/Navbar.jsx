@@ -31,11 +31,11 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-12">
-          <a href="#about" className="text-white text-2xl hover:text-black transition ease-in-out">
+          <a href="#about" className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black transition ease-in-out">
             About Us
           </a>
-          <a className="text-white text-2xl hover:text-black" href="#products"> Products </a>
-          <a className="text-white text-2xl hover:text-black" href="#services"> Services </a>
+          <a className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black" href="#products"> Products </a>
+          <a className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black" href="#services"> Services </a>
         </div>
 
         {/* Mobile Menu Button */}
