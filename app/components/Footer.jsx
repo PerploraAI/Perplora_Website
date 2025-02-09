@@ -38,7 +38,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Follow Us:</h3>
             <div className="flex space-x-4">
-              <a target="_blank" href="http://www.linkedin.com/in/perploraai"><FaLinkedin size={24} /></a>
+              <a target="_blank" href="http://www.linkedin.com/company/perploraai"><FaLinkedin size={24} /></a>
               <a target="_blank"  href="https://www.youtube.com/@perploraAI"><FaYoutube size={24} /></a>
               <a target="_blank"  href="https://www.facebook.com/profile.php?id=61573179680728"><FaFacebook size={24} /></a>
               <a target="_blank"  href="https://www.instagram.com/perploraai/"><FaInstagram size={24} /></a>
