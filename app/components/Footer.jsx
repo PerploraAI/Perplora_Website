@@ -8,6 +8,7 @@ const Footer = () => {
         <div className="md:gap-36 gap-12 md:w-full flex md:flex-row justify-evenly flex-col ">
           {/* Company Information */}
           <div className="flex flex-col ">
+          <img className='w-[50px] h-[50px] mr-2' src='/images/logo.png' alt='Logo' />
             <h2 className="text-xl font-bold mb-4">PERPLORA AI</h2>
             <p className="w-[300px] md:w-[350px] ">
             We are a deep tech <strong>Generative AI company</strong>. Our mission is to provide cutting-edge AI applications, including Generative AI and Agentic AI solutions that are affordable, accessible, and adaptable for billions.
