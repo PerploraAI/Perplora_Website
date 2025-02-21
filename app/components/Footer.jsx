@@ -53,7 +53,7 @@ const Footer = () => {
           <p>Contact us through WhatsApp!</p>
           <div className="flex justify-center items-center gap-2 text-black">
                 <FaWhatsapp className="text-green-400" size={24} />
-                <p className="text-green-400 text-2xl"><a href="https://wa.me/918056890200">WhatsApp me</a></p>
+                <p className="text-green-400 text-2xl"><a href="https://wa.me/916379510435">WhatsApp me</a></p>
             </div>
         </div>
 
