@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import How from "./components/HowItWorks";
-import Team from "./components/Team";
+// import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Technical from "./components/Technical";
 import Testimonials from "./components/Testimonials";
@@ -20,7 +20,7 @@ export default function Home() {
           <Services />
           <Technical />
           <Testimonials />
-          <Team />
+          {/* <Team /> */}
           <Footer />
     </div>
   );

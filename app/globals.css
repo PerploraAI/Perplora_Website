@@ -38,6 +38,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  width: fit-content;
+  max-width: 100vw;
+  min-width: 320px;
+  align-items: center;
+  overflow-X: hidden;
   font-family: "Bricolage Grotesque", serif;
 }
