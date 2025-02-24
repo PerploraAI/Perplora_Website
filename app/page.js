@@ -11,8 +11,9 @@ import BackToTop from "./components/BackToTop";
 import ModalPopup from "./components/Form";
 export default function Home() {
   return (
-    <div className="">
-      <BackToTop />
+    <div className="md:overflow-x-hidden sm:overflow-x-hidden lg:overflow-x-hidden">
+   <div id="container">
+          <BackToTop />
           <Navbar />
           <Hero />
           <About />
@@ -22,6 +23,7 @@ export default function Home() {
           <Testimonials />
           {/* <Team /> */}
           <Footer />
+   </div>
     </div>
   );
 }

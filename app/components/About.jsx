@@ -3,7 +3,7 @@ import Animations from "./Animations";
 
 const About = () => {
   return (
-    <div id="about" className="bg-white px-6 w-full md:px-10 py-16">
+    <div id="about" className="bg-white px-6 w-100% md:px-10 py-16">
 
             {/* Bottom Section */}
             <Animations inAnimation='slideInUp' outAnimation='slideOutDown'>
