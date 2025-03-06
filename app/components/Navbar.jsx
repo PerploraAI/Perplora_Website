@@ -31,11 +31,15 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-12">
-          <a href="#about" className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black transition ease-in-out">
+          <a href="/#about" className="text-white text-xl hover:scale-105 font-bold transition ease-in-out hover:text-black">
             About Us
           </a>
-          <a className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black" href="#products"> Products </a>
-          <a className="text-white text-xl hover:scale-105  font-bold transiton ease-in-out hover:text-black" href="#services"> Services </a>
+          <a className="text-white text-xl hover:scale-105 font-bold transition ease-in-out hover:text-black" href="/p_products">
+            Products
+          </a>
+          <a className="text-white text-xl hover:scale-105 font-bold transition ease-in-out hover:text-black" href="/p_services">
+            Services
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -54,7 +58,7 @@ function Navbar() {
         }`}
       >
         <a
-          href="#about"
+          href="/#about"
           onClick={() => setMenuOpen(false)}
           className="block text-black text-lg hover:text-primary transition ease-in-out"
         >
@@ -62,7 +66,7 @@ function Navbar() {
         </a>
 
         <a
-          href="#products"
+          href="/p_products"
           onClick={() => setMenuOpen(false)}
           className="block text-black text-lg hover:text-primary transition ease-in-out"
         >
@@ -70,7 +74,7 @@ function Navbar() {
         </a>
 
         <a
-          href="#services"
+          href="/p_services"
           onClick={() => setMenuOpen(false)}
           className="block text-black text-lg hover:text-primary transition ease-in-out"
         >

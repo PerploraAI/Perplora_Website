@@ -55,7 +55,7 @@ function ServiceBoxes() {
 
                   {/* Learn More Button */}
                   <button className="flex items-center gap-2 text-purple-700 font-medium hover:underline transition ease-in-out mt-4">
-                    Learn more <ArrowRight size={18} />
+                   <a href="/p_products" className="flex items-center gap-2"> Learn more <ArrowRight size={18} /> </a> 
                   </button>
                 </div>
               </div>

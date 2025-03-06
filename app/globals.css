@@ -6,6 +6,8 @@
 :root {
   --background: white;
   --foreground: #7e5daf;
+  margin: 0;
+  padding: 0;
   --primary-color: #7e5daf;
   --glass: #7e5daf8e;
   font-family: "Bricolage Grotesque", serif;
@@ -20,6 +22,10 @@
     scrollbar-color: var(--foreground) var(--background);
     scroll-snap-type: none;
   }
+}
+.prods{
+ 
+  color: white;
 }
 .hero{
   background-repeat: no-repeat;
@@ -42,7 +48,7 @@ body {
   min-width: 320px;
   align-items: center;
   overflow-x: hidden;
-  font-family: "Bricolage Grotesque", serif;
+
 }
 
 @media (max-width: 360px) {
